@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <!-- Display section showing previous and current operands -->
+        <div class="display">
+            <div class="previous-operand"></div>
+            <div class="current-operand">0</div>
+        </div>
+        
+        <!-- Grid of calculator buttons -->
+        <div class="buttons-grid">
+            <!-- Clear button (AC) -->
+            <button class="clear" data-action="clear">
+                <span class="glow"></span>
+                AC
+            </button>
+            
+            <!-- Delete button (DEL) -->
+            <button class="delete" data-action="delete">
+                <span class="glow"></span>
+                DEL
+            </button>
+            
+            <!-- Operation buttons -->
+            <button class="operation" data-operation="÷">
+                <span class="glow"></span>
+                ÷
+            </button>
+            <button class="operation" data-operation="×">
+                <span class="glow"></span>
+                ×
+            </button>
+            
+            <!-- Number buttons -->
+            <button class="number" data-number="7">
+                <span class="glow"></span>
+                7
+            </button>
+            <button class="number" data-number="8">
+                <span class="glow"></span>
+                8
+            </button>
+            <button class="number" data-number="9">
+                <span class="glow"></span>
+                9
+            </button>
+            <button class="operation" data-operation="-">
+                <span class="glow"></span>
+                -
+            </button>
+            
+            <button class="number" data-number="4">
+                <span class="glow"></span>
+                4
+            </button>
+            <button class="number" data-number="5">
+                <span class="glow"></span>
+                5
+            </button>
+            <button class="number" data-number="6">
+                <span class="glow"></span>
+                6
+            </button>
+            <button class="operation" data-operation="+">
+                <span class="glow"></span>
+                +
+            </button>
+            
+            <button class="number" data-number="1">
+                <span class="glow"></span>
+                1
+            </button>
+            <button class="number" data-number="2">
+                <span class="glow"></span>
+                2
+            </button>
+            <button class="number" data-number="3">
+                <span class="glow"></span>
+                3
+            </button>
+            <button class="number" data-number=".">
+                <span class="glow"></span>
+                .
+            </button>
+            
+            
+            <!-- Equals and decimal point buttons -->
+            <button class="equals" data-action="calculate">
+                <span class="glow"></span>
+                =
+            </button>
+            
+            <button class="number" data-number="0">
+                <span class="glow"></span>
+                0
+            </button>
+            <button class="number" data-number="00">
+                <span class="glow"></span>
+                00
+            </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
